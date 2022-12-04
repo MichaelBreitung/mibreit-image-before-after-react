@@ -19,8 +19,8 @@ function ImageBeforeAfter(props: ImageBeforeAfterProps) {
 
   return (
     <div className={styles.imageBeforeAfter}>
-      <img ref={beforeImageRef} src={props.beforeImage} alt="Before" width="1280" height="853" />
-      <img src={props.afterImage} alt="After" width="1280" height="853" />
+      <img ref={beforeImageRef} src={props.beforeImage} alt="Before" />
+      <img src={props.afterImage} alt="After" />
     </div>
   );
 }
